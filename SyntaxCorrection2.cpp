@@ -10,7 +10,7 @@
 using namespace std;
 
 int main() {
-    double myMoney = 1000.50; // This amount will be printed out
+    double myMoney = 1000.50; // The amount will be printed out
 
     // Output Statements
     cout << "Please be sure to correct all syntax errors in this program" << endl;

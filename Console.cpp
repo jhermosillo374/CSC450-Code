@@ -23,7 +23,7 @@ int main() {
     std::cout << "City: " << city << std::endl;
     std::cout << "Zip Code: " << zipCode << std::endl;
 
-    return 0;
+    return 0; //ends the program
 }
 
 

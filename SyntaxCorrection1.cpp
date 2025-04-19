@@ -13,7 +13,7 @@ int main() {
     cout << "Welcome to this C++ Program" << endl;
     cout << "I have corrected all errors for this program." << endl;
 
-    // Pause to keep console window open (especially for Windows)
+    // Pause until the user presses enter 
     cout << "Press Enter to continue..." << endl;
     cin.get();
 

@@ -13,21 +13,21 @@ int main() {
     for (int i = 0; i < 3; ++i) {
         std::cout << "Iteration " << (i + 1) << ":\n";
 
-        // Clear any leftover input
+        // Clear the leftover input
         std::cin.clear();
 
-        // Taking first string input
+        // Takes the first string input
         std::cout << "Enter the first string: ";
         std::getline(std::cin, firstString);
 
-        // Taking second string input
+        // Takes the second string input
         std::cout << "Enter the second string: ";
         std::getline(std::cin, secondString);
 
-        // Concatenating the strings
+        // Concatenates both strings
         concatenatedString = firstString +" "+ secondString;
 
-        // Displaying the concatenated result
+        // Displays the concatenated result
         std::cout << "Concatenated String: " << concatenatedString << "\n\n";
     }
 

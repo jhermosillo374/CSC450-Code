@@ -13,7 +13,7 @@ int main() {
     for (int i = 0; i < 3; ++i) {
         std::cout << "Iteration " << (i + 1) << ":\n";
 
-        // Clear the leftover input
+        // Clear the left over input
         std::cin.clear();
 
         // Takes the first string input
